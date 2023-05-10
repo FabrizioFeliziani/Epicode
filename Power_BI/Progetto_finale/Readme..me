@@ -1,0 +1,31 @@
+Progetto finale del modulo su Power BI.
+Per questo progetto ho scelto un db su kaggle su cui pensavo potesse essere interessante fare delle analisi per poi creare una dashboard.
+https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube
+Il db mette a confronto stream spotify e views youtube a livello globale fino a febbraio 2023, al suo interno possiamo trovare vari dati utili per le analisi che andremo ad effettuare.
+Di seguito i dati utilizzati:
+
+Track: name of the song, as visible on the Spotify platform.
+Artist: name of the artist.
+Album: the album in wich the song is contained on Spotify.
+Album_type: indicates if the song is relesead on Spotify as a single or contained in an album.
+Danceability: describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.
+Energy: is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.
+Speechiness: detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks.
+Tempo: the overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.
+Duration_ms: the duration of the track in milliseconds.
+Stream: number of streams of the song on Spotify.
+Title: title of the videoclip on youtube.
+Channel: name of the channel that have published the video.
+Views: number of views.
+Likes: number of likes.
+Comments: number of comments.
+Description: description of the video on Youtube.
+Licensed: Indicates whether the video represents licensed content, which means that the content was uploaded to a channel linked to a YouTube content partner and then claimed by that partner.
+official_video: boolean value that indicates if the video found is the official video of the song.
+
+Per prima cosa ho pulito i dati con excel, poi ho importato i dati tramite csv su power BI, qui ho scalato i dati con delle semplici formule in DAX in modo da poterli utilizzare nella dashboard.
+
+La dashboard si divide in 3 pagine:
+La prima riguarda i dati ricavati da Spotify, dati più specifici sulla musica, e delle classifiche per stream di artisti, album e brani.
+La seconda quelli di youtube, avendo meno dati a disposizione troviamo delle classifiche, come per quella di spotify, ma analizzati per views, per likes e per commenti.
+Nella terza possiamo fare un deep dive nei dati riguardanti uno specifico artista selezionabile nell'apposito filtro, in questa pagina possiamo anche vedere messi a confronto i dati di spotify e youtube per quell'artista.
