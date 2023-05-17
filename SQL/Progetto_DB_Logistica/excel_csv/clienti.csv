@@ -1,0 +1,16 @@
+﻿id_cliente;ragione sociale;p_iva;indirizzo;citta;telefono;mail;tipo_contratto;data_iscrizione
+1;Felici srl;123456789;Via le mani dalla tasta 18;Roma;761820883;info@felicisrl.it;1;2020-12-01
+2;Tristi spa;123456789;Piazza la bomba 2;Roma;54879451;info@tristispa.it;2;2000-06-07
+3;Apatici & co.;789456132;Viale speranza 3;Trieste;654897852;info@apatia.it;5;1999-08-08
+4;Speranza sas;654789321;Viale tiburtina 127;Milano;789456123;info@speranza.it;4;2002-06-03
+5;Belli e brutti;456321789;via specchio riflesso 34;Genova;987456123;belli@brutti.it;3;2006-02-01
+6;Carini srl;369852147;Via lunga 54;Otranto;654123789;info@carini.it;2;2003-05-05
+7;Simpatico amico;123654789;Via corta 1;Sassari;123456789;info@amici.it;3;2000-05-05
+8;Scozzesi spa;789456132;Via rocciosa 77;Firenze;778965412;info@scozzesi.it;3;2000-08-09
+9;Irlandesi sas;852369741;Via mina;Firenze;654789123;info@irlandesi.it;2;2001-06-03
+10;Paradizers;321456789;Via paradiso 56;Sassuolo;7895646;info@paradiso.it;5;2008-09-09
+11;Bellazzi;856458256;Via birra 88;Bologna;785316458;birra@bellazzi.it;1;2007-01-01
+12;Non retorico;236477895;Via stout 66;Fidenza;7854126;non@retorico.it;2;2010-03-04
+13;Rizla spa;159753258;Via cartina lunga 78;Napoli;98744552;info@rizla.com;3;2012-07-01
+14;Fazzoletti spa;753159852;Viale raffreddore 99;Caserta;7854126;info@inverno.it;4;2016-08-01
+15;Borracce colorate;784512658;Via acqua chiara 101;Reggio Calabria;326598544;info@corracce.it;4;2018-07-06
